@@ -1,0 +1,34 @@
+.footerContainer {
+  position: relative;
+  height: 25vh;
+  background-color: rgb(7, 106, 131);
+  border-top: 1px solid wheat;
+  color: aliceblue;
+  font-weight: 600;
+  padding: 2vh 0 2vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerRegionsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerRegionsContainer > ul {
+  list-style-type: none;
+}
+
+.footerCopyRightContainer {
+  margin: 10px 0 10px 0;
+  background-color: rgb(7, 106, 131);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 10px;
+  position: absolute;
+}

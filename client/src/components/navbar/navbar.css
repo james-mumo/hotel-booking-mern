@@ -1,0 +1,54 @@
+.fontAwesomeIconStyle {
+  /* border: 1px solid red; */
+  padding: 3px;
+  font-size: large;
+}
+.navbar {
+  background-color: rgb(7, 124, 153);
+  padding: 5px 3px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.topNavbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+
+.logo {
+  flex: 0.3;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+
+.accountButtons {
+  flex: 0.3;
+  height: fit-content;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+.accountButtonsLogin {
+  height: 30px;
+  width: 88px;
+  background-color: rgb(13, 95, 172);
+  color: aliceblue;
+  border: 0.2px solid white;
+  border-radius: 5pc;
+}
+
+.accountButtonsRegister {
+  height: 30px;
+  width: 88px;
+  background-color: rgb(13, 95, 172);
+  color: aliceblue;
+  border: 0.2px solid white;
+  border-radius: 5pc;
+}

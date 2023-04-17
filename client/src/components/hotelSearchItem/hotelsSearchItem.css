@@ -1,0 +1,113 @@
+button {
+  cursor: pointer;
+}
+
+.hotelSearchItemContainer {
+  border: 1px solid rgb(7, 124, 153);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.hotelItemImage {
+  border: 1px solid rgb(7, 124, 153);
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+  flex: 0.3;
+  border-radius: 10px;
+}
+
+.hotelItemInfo {
+  padding: 10px;
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.hotelItemHeader {
+  font-weight: 999;
+  font-size: 30px;
+  color: rgb(7, 124, 153);
+}
+
+.hotelRide {
+  background-color: rgb(7, 124, 153);
+  color: aliceblue;
+  width: fit-content;
+  padding: 10px;
+  font-weight: 999;
+  border-radius: 10px;
+}
+
+.hotelCancellation {
+  font-weight: 999;
+  font-size: 18px;
+  color: rgb(7, 124, 153);
+}
+
+.hotelHurryMessage {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(7, 124, 153);
+}
+
+.hotelItemPricing {
+  padding: 10px;
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hotelItemPricingLowerDiv {
+  border: 1px solid rgb(7, 124, 153);
+  padding: 5px;
+}
+.hotelItemRatingDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(7, 124, 153);
+  font-weight: 999;
+  font-size: larger;
+}
+
+.ratingCard {
+  background-color: rgb(7, 124, 153);
+  color: aliceblue;
+  width: fit-content;
+  padding: 10px;
+  font-weight: 999;
+  border-radius: 10px;
+}
+.hotelPricingAmount {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-weight: 999;
+  font-size: 30px;
+}
+.taxesAndVAT {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-weight: 999;
+  font-size: 15px;
+  color: rgb(7, 124, 153);
+}
+
+.seeAvailabilityButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(7, 124, 153);
+  color: aliceblue;
+  padding: 10px;
+  font-weight: 999;
+  border-radius: 10px;
+}

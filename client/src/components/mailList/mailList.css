@@ -1,0 +1,19 @@
+.mailListContainer {
+  background-color: rgb(7, 124, 153);
+  padding: 10vh 0 10vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: aliceblue;
+}
+
+.mailListHeader {
+  font-size: 30px;
+  font-weight: bold;
+}
+.mailListSubHeader {
+  font-size: 18px;
+  font-weight: 500;
+}

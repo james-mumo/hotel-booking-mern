@@ -1,0 +1,98 @@
+.singleHotelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.singleHotelDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  width: 80%;
+}
+
+.topHotelInfoDiv {
+  width: 100%;
+  gap: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.reserveOrBookButton {
+  background-color: rgb(7, 124, 153);
+  height: 40px;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  color: aliceblue;
+  border: 1px solid;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.hotelTitle {
+  font-size: 28px;
+  font-weight: bold;
+}
+.grayColor {
+  color: rgb(82, 85, 88);
+  font-weight: bold;
+}
+
+.hotelAddress {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(94, 97, 99);
+}
+
+.hotelDistance {
+  color: rgb(7, 79, 173);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bookAHotelInfo {
+  color: rgb(26, 156, 76);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bottomHotelDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.padding {
+  gap: 10px;
+}
+
+.bottomReserveOrBookDiv {
+  background-color: rgba(7, 124, 153, 0.212);
+  width: 950px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bottomReserveOrBookButton {
+  background-color: rgb(7, 124, 153);
+  height: 40px;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  color: aliceblue;
+  border: 1px solid;
+  right: 10px;
+  top: 10px;
+}
+
+.singleHotelImageDiv {
+  height: 200px;
+  width: 200px;
+}

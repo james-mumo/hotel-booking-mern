@@ -1,0 +1,149 @@
+.fontAwesomeIconStyle {
+  font-size: 20px;
+}
+.headerContainer {
+  height: max-content;
+  background-color: rgb(7, 124, 153);
+  padding: 5px 3px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerText {
+  font-size: medium;
+  font-weight: bold;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.typeWriter {
+  font-style: italic;
+}
+
+.options {
+  height: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.optionItem {
+  border: 0.2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5pc;
+  padding: 10px 3px;
+  min-width: 110px;
+}
+.optionItem:hover {
+  border: 0.2px solid rgb(165, 17, 17);
+}
+
+.headerSearch {
+  position: relative;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerSearchItems {
+  padding: 4px 8px;
+  border: 1px solid rgb(11, 141, 108);
+  background: white;
+  color: rgb(88, 88, 88);
+  font-size: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex: 0.6;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  height: 40px;
+}
+.headerSearchItem {
+  border: 1px solid rgb(7, 124, 153);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 40px;
+  width: 40%;
+}
+
+.headerSearchButton {
+  background-color: rgb(7, 124, 153);
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  width: 120px;
+  height: 30px;
+}
+
+.dateRangePicker {
+  z-index: 999;
+  position: absolute;
+  top: 50px;
+}
+
+.headerSearchOptions {
+  z-index: 999;
+  background-color: rgb(232, 233, 233);
+  border-radius: 10px;
+  border: 1px solid white;
+  border-top: none;
+  width: 200px;
+  position: absolute;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.headerSearchOptionItem {
+  padding: 3px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerSearchOptionItemCounter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.headerSearchOptionItemTitle {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.headerSearchOptionCounterButton {
+  background-color: rgb(7, 124, 153);
+  border: 1px solid white;
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.headerSearchOptionCounterButton:disabled {
+  cursor: not-allowed;
+}
+
+.headerSearchOptionItemText {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+}

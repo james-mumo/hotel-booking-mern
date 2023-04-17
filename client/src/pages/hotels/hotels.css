@@ -1,0 +1,93 @@
+button {
+  cursor: pointer;
+}
+
+.hotelsContainer {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.hotelsSearch {
+  position: sticky;
+  top: 10px;
+  background-color: rgb(7, 124, 153);
+  border-radius: 10px;
+  color: aliceblue;
+  padding: 10px;
+  flex: 0.25;
+  height: fit-content;
+  padding: 20px 15px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: large;
+  font-weight: 600;
+}
+
+.hotelsSearchTitle {
+  font-size: larger;
+  font-weight: 800;
+}
+.hotelsDestination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(90, 90, 90);
+  height: 25px;
+  border: none;
+}
+
+.hotelsCheckInDate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(90, 90, 90);
+  height: 25px;
+}
+
+.hotelSearchOptionsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hotelSearchOptionsDivItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hotelSearchOptionsDivItem > input {
+  width: 50px;
+}
+
+.hotelsSearchButton {
+  height: 30px;
+  background-color: rgb(5, 68, 83);
+  border-radius: 10px;
+  color: aliceblue;
+  border: 1px solid;
+}
+
+/*  */
+
+/*  */
+.hotelResults {
+  flex: 0.65;
+  margin-top: 10px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
